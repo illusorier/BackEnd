@@ -6,6 +6,12 @@ In the Java programming language, every application must contain a **main** meth
 
 Only one public class per Java file.
 
+Java is a high level programming language.
+
+A program written in high level language cannot be run on any machine directly.
+
+First, it needs to be translated into that particular machine language.
+
 ## Classes and Objects
 
 This is a class declaration:
@@ -30,6 +36,34 @@ The first (left-most) modifier is access modifier.
 - public modifier - the field is accessible from all classes.
 
 In the spirit fo encapsulation, it is common to make fields private.
+
+#### Super keyword
+
+The super keyword refers to the objects of immediate parent class.
+
+方法重载
+
+Method Overloading is a feature that allows a class to have more than one method having the same name, if their argument lists are different.
+
+#### Three ways to overload a method
+
+In order to overload a method, the argument lists of the methods differ in either of these:
+
+方法重写
+
+Declaring a method in **sub class** which is already present in **parent class** is known as method overriding.
+
+Overriding is done so that a child class can gave its own implementation to a method which is already provided by the parent class.
+
+A class that is declared using "**abstract**" keyword is known as abstract class.
+
+        class Human {
+            public static void walk() {}
+        }
+        
+        class Boy extends Human {
+            public static void walk() {}
+        }
 
 ## Annotations
 
@@ -57,4 +91,15 @@ A set of annotation types are predefined in the Java SE API.
 
 Defining an interface is similar to creating a new class.
 
-A **JAR** (Java ARchive) is a package file format typically used to aggregate 
+A **JAR** (Java ARchive) is a package file format typically used to aggregate
+
+## Multithreading
+
+#### Creating a thread in Java
+
+There are two ways to create a thread in Java:
+
+1. By extending Thread class
+
+2. By implementing Runnable interface
+
