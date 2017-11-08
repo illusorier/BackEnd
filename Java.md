@@ -1,4 +1,4 @@
-Java项目的结构与前端项目的JS部分有一定差异。
+Java代码的结构与前端项目的JS部分有一定差异。
 
 因为Java是纯粹的面向对象语言，而JS本质是面向过程的。
 
@@ -39,11 +39,27 @@ This is a class declaration:
 
 The *class body* (the area between the braces).
 
+Objects have two characteristics: They have **states** and **behaviors**.
+
+The states and behaviors of an object, can be represented by variables and methods in the class respectively.
+
 #### Declaring Member Variables
 
 There are several kinds of variables:
 
-- Member variables in a class - these are called fields.
+- Member variables in a class - these are called fields. ( 成员变量 )
+
+- Variables in a method or block of code - these are called local variables.
+
+- Variables in method declarations - these are called parameters.
+
+成员变量的组成：
+
+Field declaration are composed of three components, in order:
+
+1. Zero or more modifiers, such as *public* or *private*.
+2. The field's type.
+3. The field's name.
 
 访问修饰符
 
@@ -52,6 +68,8 @@ The first (left-most) modifier is access modifier.
 - public modifier - the field is accessible from all classes.
 
 In the spirit fo encapsulation, it is common to make fields private.
+
+This means that they can only be directly accessed from the Class who defines it.
 
 #### Static keyword
 
