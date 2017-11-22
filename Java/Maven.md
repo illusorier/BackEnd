@@ -32,3 +32,5 @@ Version 4.0.0 matches Maven version 2 and 3.
 
 #### Maven Repositories
 
+Unless your project is small, your project may need external Java APIs or frameworks which are packaged in their own JAR files.
+

@@ -6,6 +6,8 @@ In the Java programming language, every application must contain a **main** meth
 
 Only one public class per Java file.
 
+> If you put multiple types in a single source file, only one can be *public*, and it must have the same name as the source file.
+
 ## Background
 
 A **JAR** (Java ARchive) is a package file format typically used to aggregate
@@ -61,8 +63,7 @@ Static keyword can be used with class, variable, method and block.
 
 Static members belong to the class instead of a specific instance.
 
-        class SimpleStaticExample
-        {
+        class SimpleStaticExample {
             // This is a static method
             static void myMethod()
             {
@@ -126,41 +127,6 @@ A normal class ( non-abstract class ) cannot have abstract methods.
 
 > An abstract class can not be **instantiated**.
 
-## Annotations
-
-Annotations have a number of uses, among them:
-
-- Information for the compiler - 
-
-In its simplest form, an annotation looks like the following:
-
-        @Entity
-        
-The at sign character(@) indicates to the compiler that what follows is an annotation.
-
-It is also possible to use multiple annotations on the same declaration.
-
-#### Where Annotations Can Be Used
-
-Annotations can be applied to declarations: declarations of classes, fields, methods, and other program elements.
-
-When used on a declaration, each annotation often appears, by convention, on its own line.
-
-#### Declaring an Annotation Type
-
-The annotation type definition looks similar to an interface definition where the keyword `interface` is preceded by the at sign(@).
-
-When we are talking about standard annotations like @Override - JVM is the consumer and it works at bytecode level.
-
-That's something application developers can't control and can't use for custom annotations.
-
-A set of annotation types are predefined in the Java SE API.
-
-        @Exported
-        
-outside of the Java SE namespaces of  `java.*` and `javax.*` packages.
-
-
 ## Interface
 
 Defining an interface is similar to creating a new class.
@@ -189,4 +155,4 @@ An Http Server is bound to an IP address and port number and listens for incomin
         
 One or more HttpHandler objects must be 
 
-HttpContext represents a mapping 
+HttpContext represents a mapping

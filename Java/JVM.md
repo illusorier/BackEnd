@@ -27,3 +27,9 @@ Which means you can run the code in JRE but you can’t develop and compile the 
 JDK: JDK is a superset of JRE, it contains everything that JRE has along with developments tools such as compiler, debugger etc.
 
 我的理解是如果你要在计算机上运行java程序，那么只需要安装JRE，但如果你想成为一个Java开发者，你需要的是JDK。
+
+Java Stack memory is used for execution of a thread
+
+- As soon as we run the program, it loads all the Runtime classes into the Heap space.
+
+2. Whenever an object is created, it's always stored in the Heap space and stack memory contains the reference to it.
