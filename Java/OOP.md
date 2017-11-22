@@ -155,4 +155,17 @@ An Http Server is bound to an IP address and port number and listens for incomin
         
 One or more HttpHandler objects must be 
 
-HttpContext represents a mapping
+HttpContext represents a mapping 
+
+泛型出现的原因
+
+假如一个类的使用需要依赖其他若干个类，且具体依赖情况会发生变化
+
+只能持有单个对象的类：
+
+    class Automobile {}
+    
+    public class 
+    
+
+元组(tuple)是将一组对象直接打包存储于其中的
