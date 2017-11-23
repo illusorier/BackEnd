@@ -28,6 +28,10 @@ JDK: JDK is a superset of JRE, it contains everything that JRE has along with de
 
 我的理解是如果你要在计算机上运行java程序，那么只需要安装JRE，但如果你想成为一个Java开发者，你需要的是JDK。
 
+**Classpath** is a parameter in the JVM or the Java compiler that specifies the location of user-defined classes and packages.
+
+The parameter may be set either on the command-line, or through an environment variable.
+
 Java Stack memory is used for execution of a thread
 
 - As soon as we run the program, it loads all the Runtime classes into the Heap space.
