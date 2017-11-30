@@ -32,7 +32,15 @@ JDK: JDK is a superset of JRE, it contains everything that JRE has along with de
 
 The parameter may be set either on the command-line, or through an environment variable.
 
-Java Stack memory is used for execution of a thread
+#### Java Heap Space
+
+Garbage Collection runs on the heap memory to free the memory used by objects that does not have any reference.
+
+#### Java Stack Memory
+
+Java Stack memory is used for execution of a thread.
+
+Stack memory size is very less compared to Heap memory.
 
 - As soon as we run the program, it loads all the Runtime classes into the Heap space.
 
