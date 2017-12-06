@@ -4,6 +4,8 @@ Java代码的结构与前端项目的JS部分有一定差异。
 
 In the Java programming language, every application must contain a **main** method.
 
+In Java, you need to have a method named main in at least one class.
+
 Only one public class per Java file.
 
 > If you put multiple types in a single source file, only one can be *public*, and it must have the same name as the source file.

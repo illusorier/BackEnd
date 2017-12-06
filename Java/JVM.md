@@ -44,4 +44,6 @@ Stack memory size is very less compared to Heap memory.
 
 - As soon as we run the program, it loads all the Runtime classes into the Heap space.
 
+1. Heap memory 
+
 2. Whenever an object is created, it's always stored in the Heap space and stack memory contains the reference to it.
