@@ -6,6 +6,8 @@ Apache Tomcat is a webcontainer which allows to run servlet and JSP based web ap
 
 Most of the modern Java web frameworks are based on servlets, e.g. JavaServer Faces, Struts, Spring.
 
+Apache Tomcat also provides by default a HTTP connector on port 8080.
+
 Tomcat can also be used as HTTP server.
 
 But the performance of Tomcat is not as good as the performance of a designated web server, like the Apache HTTP server.
