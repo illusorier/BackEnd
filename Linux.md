@@ -1,5 +1,7 @@
 ## curl
 
+curl is a tool to transfer data from or to a server, using one of the supported protocol
+
 Basically, you can use curl to download content from the internet.
 
 #### curl vs wget
