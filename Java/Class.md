@@ -15,3 +15,13 @@ A class can contain any of following variable types.
 A class can have any number of methods.
 
 Every class has a constructor.
+
+Modifiers are keywords that you add to those 
+
+### Using the this Keyword
+
+From within a constructor, you can also use the `this` keyword to call another constructor in the same class.
+
+### Static
+
+We can apply java static keyword with variables, methods, blocks and nested class.
