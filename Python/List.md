@@ -24,3 +24,4 @@ All slice operation return a new list containing the requested elements.
 
 List also support operations like concatenation:
 
+You can also add new items at the end of list, by using the `append()` method.
