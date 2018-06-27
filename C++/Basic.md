@@ -12,7 +12,17 @@ Because a computer can only understand machine language and humans wish to write
 
 High level languages have to be re-written (translated) into machine language at some point.
 
+The files you create with your editor are called source files and for C++ they typically are named with the extension .cpp, .cp or .c.
 
+Most C++ compiler does not care what extension you give to your source code, but if you do not specify otherwise, many will use .cpp by default.
+
+Most frequently used and free available compiler is GNU C/C++ compiler.
+
+那么，如何在mac中利用GNU编译C++源代码并运行呢？
+
+    g++ hello.cpp
+    
+    ./a.out
 
 Console programs are programs that use text to communicate
  
