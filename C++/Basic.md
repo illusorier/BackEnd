@@ -54,23 +54,6 @@ This would assign the address of variable `myvar` to `foo`.
 
 The actual address of a variable in memory cannot be known before runtime.
 
-C++语言并未定义任何输入输出(IO)语句，如JavaScript就存在 `console.log` ，取而代之，包含了一个全面的标准库来提供IO机制。
-
-    #include <iostream>
-    int main()
-    {
-        std::
-
-前缀 `std::` 指出cout和endl是定义
-
-标准库定义的所有名字都在命名空间std中。
-
-通过使用作用域(::)运算符来指出我们想使用定义在命名空间std中的名字cout。
-
-命名空间作为附加信息来区分不同库中相同名称的函数、类、变量等。
-
-使用了命名空间即定义了上下文
-
 C++最初的一个设计焦点就是能定义使用上像内置类型一样自然的类类型(class type)
 
 C/C++和Python、JavaScript不同，在声明变量时必须指定其类型：
