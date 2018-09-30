@@ -1,4 +1,20 @@
-While writing program in any language, you need to use 
+什么是变量，变量的本质？
+
+While writing program in any language, you need to use various variables to store various information.
+
+Variables are nothing but reserved memory locations to store values.
+
+This means that when you create a variable you reserve some space in memory.
+
+一个变量代表一部分指定的内存区域
+
+变量提供一个具名的、可供程序操作的存储空间。
+
+计算器就是一个很合适的，可以用来类比的对象，功能简单的计算器并没有如内存这样的存储功能，它只能完成一些简单的计算。
+
+In computing, **memory** refers to the computer hardware integrated circuits that store information for immediate use.
+
+在C++中变量是如何使用的，和其他主流的编程语言有哪些异同？
 
 A variable definition tells the compiler where 
 
@@ -10,7 +26,9 @@ C++ also allows to define various other types of variables.
     
 Here, type must be a valid C++ data 
 
-变量提供一个具名的、可供程序操作的存储空间。
+C/C++和Python、JavaScript不同，在声明变量时必须指定其类型：
+
+    int i = 1；
 
 C++中的每个变量都有其数据类型
 

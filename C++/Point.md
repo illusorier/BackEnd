@@ -1,0 +1,1 @@
+In computer science, a **pointer** is a programming language object that stores the memory address of another value located in computer memory.

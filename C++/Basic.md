@@ -1,3 +1,7 @@
+系统中的所有信息都是由一串位表示的
+
+Programs written in a high level language 
+
 ### What is a compiler?
 
 Computers understand only one language and that language 
@@ -49,10 +53,6 @@ This would assign the address of variable `myvar` to `foo`.
 The actual address of a variable in memory cannot be known before runtime.
 
 C++最初的一个设计焦点就是能定义使用上像内置类型一样自然的类类型(class type)
-
-C/C++和Python、JavaScript不同，在声明变量时必须指定其类型：
-
-    int i = 1；
     
 ## 基本内置类型
 
@@ -86,6 +86,12 @@ CPU和内存之间的数据传送单位通常是一个字长。
 
 大多数计算机将内存中的每个字节与一个数字(被称为"地址(address)")关联起来。
 
+计算机系统中的所有信息都是由一串位表示的，而这些位究竟代表什么是由其上下文决定的。
+
+一个同样的字节序列可能表示一个整数、浮点数或是字符串。
+
+因此像JavaScript这样的语言，即使它的变量是没有类型的，它的值也是具有类型的，否则这些字节序列究竟代表了什么是不得而知的。
+
 类型决定了数据所占的比特数以及该如何解释这些比特的内容。
 
 除去
@@ -96,7 +102,9 @@ CPU和内存之间的数据传送单位通常是一个字长。
 
 当我们把一个非布尔类型的算术值赋给布尔类型时，初始值为0则结果为false，否则结果为true。
 
-当我们把一个
+一个形如42的值被称作**字面量常量**(literal)
+
+每个字面量常量都对应一种数据类型，
 
 头文件(header)使类或其他名字的定义可被多个程序使用的一种机制，程序通过`#include`指令使用头文件。
 
